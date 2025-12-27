@@ -1,16 +1,35 @@
-# React + Vite
+# contador-de-cliques-react: Contador
+## ✍ Descrição do projeto:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto consiste em uma aplicação simples desenvolvida com React, cujo objetivo é implementar um contador de cliques.
+A cada clique realizado em um botão, o valor do contador é incrementado em uma unidade e exibido na tela em tempo real.
+O projeto foi desenvolvido com fins didáticos, para entrega do primeiro desafio de certificação do curso de React, regido pela plataforma DevStart em parceria com o Senai.
 
-Currently, two official plugins are available:
+## 👩‍💻 O que foi utilizado para o desenvolvimento do projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Foram utilizadas as seguintes tecnologias e recursos:
 
-## React Compiler
+* React.js, utilizando componentes funcionais
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+* Hook useState, para controle do estado do contador
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Create React App, para a configuração inicial do ambiente de desenvolvimento
+
+## 🧾 Especificações
+
+✔ O projeto possui um componente funcional chamado Contador.
+
+✔ O estado inicial do contador é definido como zero.
+
+✔ A cada clique no botão, uma função, denominada `incrementarContador()`,  é acionada para incrementar o valor do contador em 1.
+
+✔ O valor atualizado do contador é exibido dinamicamente na interface.
+
+✔ Utiliza atualização segura de estado, por meio da função callback do useState.
+
+✔ Estrutura simples e organizada, facilitando o entendimento e a manutenção do código.
+
+    
+

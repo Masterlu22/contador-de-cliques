@@ -3,7 +3,7 @@
 
 Este projeto consiste em uma aplicação simples desenvolvida com React, cujo objetivo é implementar um contador de cliques.
 A cada clique realizado em um botão, o valor do contador é incrementado em uma unidade e exibido na tela em tempo real.
-O projeto foi desenvolvido com fins didáticos, para entrega do primeiro desafio de certificação do curso de React, regido pela plataforma DevStart em parceria com o Senai.
+O projeto foi desenvolvido com fins didáticos, a fim de cumprir requisitos exigidos por projetos de certificação do curso de React, regido pela plataforma **DevStart** em parceria com o **SENAI**.
 
 ## 👩‍💻 O que foi utilizado para o desenvolvimento do projeto
 
